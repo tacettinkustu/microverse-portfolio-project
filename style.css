@@ -1,8 +1,14 @@
+* {
+  font-family: Poppins;
+}
+
 body {
-  position: relative;
+  position: absolute;
   width: 375px;
-  height: 5410px;
-  background: #f7f7f9;
+  height: 718px;
+  left: 0px;
+  top: 0px;
+  background: #fff;
 }
 
 a {
@@ -15,6 +21,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin: 24px;
+  height: 90px;
 }
 
 #my-logo {
@@ -41,9 +48,244 @@ nav {
 #hamburger-menu {
   width: 20px;
   height: 20px;
-  color: #ACB7C3;
+  color: #acb7c3;
 }
-.fa-bars{
-color:#6070FF;
+.fa-bars {
+  color: #6070ff;
 }
 
+#ellipse {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 214px;
+  top: 110px;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+
+#rectangle {
+  position: absolute;
+  width: 51.99px;
+  height: 9.3px;
+  left: -34px;
+  top: 141.49px;
+  background: #ebebff;
+  transform: rotate(-46.14deg);
+}
+
+#ellipse11 {
+  position: absolute;
+  width: 38.5px;
+  height: 19.25px;
+  left: 16.04px;
+  top: 161.47px;
+  background: #6070ff;
+  transform: rotate(-156.88deg);
+}
+
+#rectangle7 {
+  position: absolute;
+  width: 26.46px;
+  height: 4.73px;
+  left: 127.18px;
+  top: 151.59px;
+  background: #6070ff;
+  transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
+}
+
+#ellipse5 {
+  position: absolute;
+  width: 11px;
+  height: 10px;
+  left: 132.98px;
+  top: 155.81px;
+  background: #cbcdff;
+  transform: rotate(52.97deg);
+}
+
+#rectangle4 {
+  position: absolute;
+  width: 95.58px;
+  height: 22.02px;
+  left: 294px;
+  top: 165.79px;
+  background: #ebebff;
+  transform: rotate(-30deg);
+}
+#ellipse3 {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 323px;
+  top: 152.24px;
+}
+
+#ellipse14 {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  left: 298px;
+  top: 315px;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+
+#ellipse12 {
+  position: absolute;
+  width: 24.14px;
+  height: 12.07px;
+  left: 341.76px;
+  top: 546.69px;
+  transform: rotate(3.92deg);
+}
+
+#ellipse13 {
+  position: absolute;
+  width: 30.1px;
+  height: 30.1px;
+  left: 332.18px;
+  top: 553.44px;
+  transform: rotate(69.41deg);
+}
+
+#ellipse4 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 237px;
+  top: 657.1px;
+}
+
+#rectangle5 {
+  position: absolute;
+  width: 68.06px;
+  height: 12.18px;
+  left: 191.82px;
+  top: 668px;
+  background: #ebebff;
+  transform: rotate(23.34deg);
+}
+
+#ellipse15 {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 53px;
+  top: 645px;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+
+#first-section {
+  position: static;
+  width: 327px;
+  height: 150px;
+  left: 24px;
+  top: 114px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 20px;
+  margin-top: 90px;
+}
+
+#second-section {
+  position: static;
+  width: 327px;
+  height: 146px;
+  left: 24px;
+  top: 276px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 20px;
+}
+
+#connect {
+  position: static;
+  width: 130px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 20px;
+}
+
+#twitter {
+  position: absolute;
+  left: 6.4%;
+  right: 88.27%;
+  top: 77.81%;
+  bottom: 18.88%;
+}
+
+#linkedin1 {
+  position: absolute;
+  left: 16.8%;
+  right: 81.87%;
+  top: 77.71%;
+  bottom: 21.36%;
+}
+
+#linkedin {
+  position: absolute;
+  left: 16.8%;
+  right: 81.87%;
+  top: 78.7%;
+  bottom: 18.87%;
+}
+
+#linkedin2 {
+  position: absolute;
+  left: 18.74%;
+  right: 77.87%;
+  top: 78.22%;
+  bottom: 18.87%;
+}
+
+#medium {
+  position: absolute;
+  left: 27.47%;
+  right: 67.2%;
+  top: 78.15%;
+  bottom: 19.21%;
+}
+
+#github {
+  position: absolute;
+  left: 38.13%;
+  right: 57.07%;
+  top: 77.81%;
+  bottom: 18.87%;
+}
+
+#angel {
+  position: absolute;
+  left: 48%;
+  right: 48.22%;
+  top: 77.81%;
+  bottom: 18.87%;
+}
