@@ -111,6 +111,7 @@ nav {
   background: #ebebff;
   transform: rotate(-30deg);
 }
+
 #ellipse3 {
   position: absolute;
   width: 105px;
@@ -224,7 +225,6 @@ nav {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-  flex: none;
   margin: 0px 20px;
 }
 
