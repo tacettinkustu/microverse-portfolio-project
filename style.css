@@ -1,16 +1,14 @@
 body {
   position: relative;
   width: 375px;
-  height: 6715px;
-  border-style: solid;
-  border-color: red;
-  /* Theme 2 / Neutral 11 */
-
-  background: #ffffff;
+  height: 5410px;
+  background: #f7f7f9;
 }
+
 a {
   text-decoration: none;
 }
+
 nav {
   display: flex;
   flex-direction: row;
@@ -18,33 +16,34 @@ nav {
   align-items: center;
   margin: 24px;
 }
-#welcome {
+
+#my-logo {
   position: static;
-  width: 90px;
-  height: 28px;
+  width: 76px;
+  height: 20px;
   left: 12px;
   top: 10px;
-
-  /* Theme 2 / Subhead 1 */
-
-  font-family: Inter;
+  font-family: Poppins;
   font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 28px;
-  /* identical to box height, or 140% */
-
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
   display: flex;
   align-items: center;
   text-align: center;
-
-  /* Theme 2 / Neutral 1 */
-
-  color: #28352f;
+  color: #6070ff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
 }
+
 #hamburger-menu {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
+  color: #ACB7C3;
 }
-
+.fa-bars{
+color:#6070FF;
+}
 
