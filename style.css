@@ -1,0 +1,50 @@
+body {
+  position: relative;
+  width: 375px;
+  height: 6715px;
+  border-style: solid;
+  border-color: red;
+  /* Theme 2 / Neutral 11 */
+
+  background: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px;
+}
+#welcome {
+  position: static;
+  width: 90px;
+  height: 28px;
+  left: 12px;
+  top: 10px;
+
+  /* Theme 2 / Subhead 1 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Theme 2 / Neutral 1 */
+
+  color: #28352f;
+}
+#hamburger-menu {
+    width: 20px;
+    height: 20px;
+}
+
+
