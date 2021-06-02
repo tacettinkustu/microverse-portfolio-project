@@ -1,13 +1,11 @@
 * {
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
   position: absolute;
   width: 375px;
   height: 718px;
-  left: 0px;
-  top: 0px;
   background: #fff;
 }
 
@@ -30,7 +28,7 @@ nav {
   height: 20px;
   left: 12px;
   top: 10px;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -42,7 +40,6 @@ nav {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 0px;
 }
 
 #hamburger-menu {
@@ -50,6 +47,7 @@ nav {
   height: 20px;
   color: #acb7c3;
 }
+
 .fa-bars {
   color: #6070ff;
 }
@@ -60,7 +58,7 @@ nav {
   height: 15px;
   left: 214px;
   top: 110px;
-  background: #ffffff;
+  background: #fff;
   box-sizing: border-box;
 }
 
@@ -127,7 +125,7 @@ nav {
   height: 11px;
   left: 298px;
   top: 315px;
-  background: #ffffff;
+  background: #fff;
   box-sizing: border-box;
 }
 
@@ -173,7 +171,7 @@ nav {
   height: 15px;
   left: 53px;
   top: 645px;
-  background: #ffffff;
+  background: #fff;
   box-sizing: border-box;
 }
 
@@ -183,7 +181,7 @@ nav {
   height: 150px;
   left: 24px;
   top: 114px;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -204,7 +202,7 @@ nav {
   height: 146px;
   left: 24px;
   top: 276px;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -220,17 +218,13 @@ nav {
   position: static;
   width: 130px;
   height: 24px;
-  left: 0px;
-  top: 0px;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
   flex: none;
-  order: 0;
-  flex-grow: 0;
   margin: 0px 20px;
 }
 
