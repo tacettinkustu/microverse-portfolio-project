@@ -302,7 +302,7 @@ li a:hover {
   top: 16px;
   background: url("./utils//card-image.png");
   border-radius: 8px;
-  margin:auto;
+  margin: auto;
   background-size: cover;
 }
 
