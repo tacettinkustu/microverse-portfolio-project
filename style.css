@@ -1,0 +1,153 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  position: absolute;
+  width: 375px;
+  height: 718px;
+  background: #fff;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 58px;
+  margin-bottom: 5px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+#my-logo {
+  position: static;
+  width: 76px;
+  height: 20px;
+  left: 12px;
+  top: 10px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#my-logo:hover {
+  opacity: 0.7;
+}
+
+#hamburger-menu {
+  width: 20px;
+  height: 20px;
+  color: #acb7c3;
+}
+
+#hamburger-menu:hover {
+  opacity: 0.7;
+}
+
+.fa-bars {
+  color: #6070ff;
+}
+
+section {
+  background-image: url("./utils/header-shapesmobile@2x.svg");
+  background-repeat: no-repeat;
+}
+
+#first-section {
+  position: relative;
+  width: 327px;
+  height: 100px;
+  top: 144px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 20px;
+}
+
+#second-section {
+  position: relative;
+  width: 327px;
+  height: 146px;
+  top: 176px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 20px;
+}
+
+#link {
+  position: relative;
+  top: 176px;
+}
+
+#connect {
+  position: static;
+  width: 130px;
+  height: 24px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#connect:hover {
+  opacity: 0.7;
+}
+
+#social-media {
+  position: relative;
+  top: 176px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+li a:hover {
+  opacity: 0.7;
+}
