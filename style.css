@@ -374,7 +374,7 @@ li a:hover {
 .base-list {
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
+  margin-left: 10px;
   margin-right: 20px;
 }
 
@@ -385,7 +385,7 @@ li a:hover {
   line-height: 24px;
   display: flex;
   flex-direction: column;
-  padding: 25px 15px;
+  padding: 25px 5px;
   color: #000;
   border-bottom: 1px solid #dfe1e6;
 }
