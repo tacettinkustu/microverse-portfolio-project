@@ -172,7 +172,11 @@ li a:hover {
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
-  margin: 88px 12px;
+  margin: 40px 12px;
+}
+
+#first-card-item {
+  margin-top: 150px;
 }
 
 #snapshot1 {
@@ -376,11 +380,15 @@ li a:hover {
   border-bottom: 1px solid #dfe1e6;
 }
 
+#dropdown-menu {
+  margin-top: 60px;
+}
+
 .list-item-inserted {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 30px;
+  margin-right: 10px;
 }
 
 .fa-chevron-right {
@@ -407,8 +415,4 @@ li a:hover {
 
 .language-item-text {
   margin-left: 8px;
-}
-
-#vertical-arrow {
-  
 }
