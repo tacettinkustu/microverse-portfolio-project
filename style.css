@@ -186,7 +186,8 @@ li a:hover {
   top: 16px;
   background: url("./utils/first-card.png");
   border-radius: 8px;
-  margin: 12px 0px;
+  margin-top: 12px;
+  margin-bottom: 12px;
   background-size: cover;
 }
 
@@ -308,7 +309,8 @@ li a:hover {
   top: 16px;
   background: url("./utils/card-image-2.png");
   border-radius: 8px;
-  margin: 12px 0px;
+  margin-top: 12px;
+  margin-bottom: 12px;
   background-size: cover;
 }
 
