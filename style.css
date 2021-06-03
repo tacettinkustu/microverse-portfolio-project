@@ -182,13 +182,12 @@ li a:hover {
 #snapshot1 {
   position: static;
   width: 295px;
-  height: 220px;
+  height: 230px;
   left: 16px;
   top: 16px;
   background: url("./utils/first-card.png");
   border-radius: 8px;
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin: auto;
   background-size: cover;
 }
 
@@ -298,13 +297,12 @@ li a:hover {
 #snapshot2 {
   position: static;
   width: 295px;
-  height: 220px;
+  height: 230px;
   left: 16px;
   top: 16px;
   background: url("./utils//card-image.png");
   border-radius: 8px;
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin:auto;
   background-size: cover;
 }
 
@@ -316,8 +314,6 @@ li a:hover {
   top: 16px;
   background: url("./utils/card-image-2.png");
   border-radius: 8px;
-  margin-top: 12px;
-  margin-bottom: 12px;
   background-size: cover;
 }
 
