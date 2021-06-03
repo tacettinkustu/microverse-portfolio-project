@@ -61,10 +61,10 @@ section {
 }
 
 #first-section {
+  position: relative;
   width: 327px;
   height: 100px;
-  left: 24px;
-  top: 514px;
+  top: 144px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -80,11 +80,10 @@ section {
 }
 
 #second-section {
-  position: static;
+  position: relative;
   width: 327px;
   height: 146px;
-  left: 24px;
-  top: 276px;
+  top: 176px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -95,6 +94,11 @@ section {
   order: 1;
   flex-grow: 0;
   margin: 12px 20px;
+}
+
+#link {
+  position: relative;
+  top: 176px;
 }
 
 #connect {
@@ -115,42 +119,27 @@ section {
   opacity: 0.7;
 }
 
-#twitter {
-  position: absolute;
-  left: 6.4%;
-  right: 88.27%;
-  top: 77.81%;
-  bottom: 18.88%;
+#social-media {
+  position: relative;
+  top: 176px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
 }
 
-#linkedin {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  left: 63px;
-  top: 558px;
+li {
+  float: left;
 }
 
-#medium {
-  position: absolute;
-  left: 27.47%;
-  right: 67.2%;
-  top: 78.15%;
-  bottom: 19.21%;
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
 }
 
-#github {
-  position: absolute;
-  left: 38.13%;
-  right: 57.07%;
-  top: 77.81%;
-  bottom: 18.87%;
-}
-
-#angel {
-  position: absolute;
-  left: 48%;
-  right: 48.22%;
-  top: 77.81%;
-  bottom: 18.87%;
+li a:hover {
+  opacity: 0.7;
 }
