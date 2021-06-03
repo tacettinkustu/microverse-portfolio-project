@@ -137,7 +137,6 @@ header {
 
 ul {
   list-style-type: none;
-  padding-inline-start: 0px;
 }
 
 li {
@@ -185,7 +184,7 @@ li a:hover {
   height: 220px;
   left: 16px;
   top: 16px;
-  background: url("./utils//first-card.png");
+  background: url("./utils/first-card.png");
   border-radius: 8px;
   margin: 12px 0px;
   background-size: cover;
@@ -200,7 +199,8 @@ li a:hover {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
-  margin: 12px 0px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 .card-list {
@@ -210,8 +210,6 @@ li a:hover {
 }
 
 .item {
-  padding: 0px;
-  margin: 0px;
   margin-top: 5px;
 }
 
@@ -243,7 +241,8 @@ li a:hover {
   line-height: 24px;
   color: #344563;
   order: 1;
-  margin: 12px 0px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 .language-container {
@@ -263,7 +262,8 @@ li a:hover {
 }
 
 .card-footer {
-  margin: 25px 0px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .card-button {
@@ -295,7 +295,8 @@ li a:hover {
   top: 16px;
   background: url("./utils//card-image.png");
   border-radius: 8px;
-  margin: 12px 0px;
+  margin-top: 12px;
+  margin-bottom: 12px;
   background-size: cover;
 }
 
@@ -305,7 +306,7 @@ li a:hover {
   height: 220px;
   left: 16px;
   top: 16px;
-  background: url("./utils//card-image-2.png");
+  background: url("./utils/card-image-2.png");
   border-radius: 8px;
   margin: 12px 0px;
   background-size: cover;
@@ -319,7 +320,8 @@ li a:hover {
   top: 16px;
   background: url("./utils//card-image-3.png");
   border-radius: 8px;
-  margin: 12px 0px;
+  margin-top: 12px;
+  margin-bottom: 12px;
   background-size: cover;
 }
 
@@ -341,7 +343,6 @@ li a:hover {
 .about-text {
   margin-left: 12px;
   margin-right: 16px;
-  margin-bottom: 0px;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -364,11 +365,11 @@ li a:hover {
 .base-list {
   display: flex;
   flex-direction: column;
-  margin: 0px 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .list-item {
-  font-family: Poppins;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -376,7 +377,7 @@ li a:hover {
   display: flex;
   flex-direction: column;
   padding: 25px 15px;
-  color: #000000;
+  color: #000;
   border-bottom: 1px solid #dfe1e6;
 }
 
@@ -405,7 +406,8 @@ li a:hover {
   top: 12px;
   background: #f7f7f9;
   border-radius: 8px;
-  margin: 12px 0px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 .language-item-logo {
