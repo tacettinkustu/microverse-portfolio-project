@@ -360,4 +360,55 @@ li a:hover {
 .base-list {
   display: flex;
   flex-direction: column;
+  margin: 0px 20px;
+}
+
+.list-item {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 15px;
+  color: #000000;
+  border-bottom: 1px solid #dfe1e6;
+}
+
+.list-item-inserted {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.fa-chevron-right {
+  color: #acb7c3;
+  font-size: 0.73em;
+}
+
+.language-list-container {
+  display: flex;
+  position: static;
+  width: 303px;
+  height: 66.72px;
+  left: 12px;
+  top: 12px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin: 12px 0px;
+}
+
+.language-item-logo {
+  object-fit: cover;
+  margin: 6px;
+}
+
+.language-item-text {
+  margin-left: 8px;
+}
+
+#vertical-arrow {
+  
 }
