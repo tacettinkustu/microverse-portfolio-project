@@ -137,6 +137,7 @@ header {
 
 ul {
   list-style-type: none;
+  padding-inline-start: 2px;
 }
 
 li {
@@ -244,6 +245,12 @@ li a:hover {
   order: 1;
   margin-top: 12px;
   margin-bottom: 12px;
+}
+
+.language-list {
+  display: flex;
+  justify-content: flex-start;
+  padding-inline-start: 2px;
 }
 
 .language-container {
