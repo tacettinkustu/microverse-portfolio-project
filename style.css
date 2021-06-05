@@ -295,7 +295,6 @@ li a:hover {
 }
 
 #snapshot2 {
-  position: static;
   width: 295px;
   height: 230px;
   left: 16px;
@@ -307,7 +306,6 @@ li a:hover {
 }
 
 #snapshot3 {
-  position: static;
   width: 295px;
   height: 220px;
   left: 16px;
