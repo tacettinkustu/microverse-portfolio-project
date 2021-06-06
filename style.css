@@ -180,7 +180,6 @@ li a:hover {
 }
 
 #snapshot1 {
-  position: static;
   width: 295px;
   height: 230px;
   left: 16px;
@@ -192,7 +191,6 @@ li a:hover {
 }
 
 .card-heading {
-  position: static;
   width: 295px;
   height: 36px;
   font-style: normal;
