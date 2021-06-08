@@ -483,6 +483,10 @@ li a:hover {
   width: 300px;
 }
 
+#email-input {
+  width: 300px;
+}
+
 textarea {
   background: #fff;
   border: 1px solid #cfd8dc;
