@@ -254,8 +254,7 @@ li a:hover {
   float: left;
   justify-content: center;
   align-content: center;
-  padding-bottom: 5px;
-  padding: 4px 12px;
+  padding: 5px 12px;
   background: #ebebff;
   border-radius: 8px;
   margin-right: 10px;
@@ -445,7 +444,7 @@ li a:hover {
   font-size: 40px;
   line-height: 52px;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
 }
 
 .contact-me-first {
@@ -469,7 +468,7 @@ li a:hover {
 }
 
 .fname {
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   padding: 15px 16px;
@@ -485,7 +484,7 @@ li a:hover {
 }
 
 textarea {
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   font-style: normal;
@@ -504,7 +503,7 @@ textarea {
   flex-direction: row;
   align-items: center;
   padding: 12px 16px;
-  background: #ffffff;
+  background: #fff;
   border-radius: 8px;
   font-style: normal;
   font-weight: 500;
