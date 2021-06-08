@@ -428,13 +428,12 @@ li a:hover {
   align-items: center;
   justify-content: center;
   margin-top: 100px;
-  overflow: hidden;
 }
 
 .layer {
   background-image: url("./utils/contact-form-shapes-mobile.svg");
   position: absolute;
-  width: 265px;
+  width: 222px;
   height: 709.17px;
   left: 153px;
   top: 4452px;
@@ -461,6 +460,7 @@ li a:hover {
   text-align: center;
   color: #ebebff;
   margin: 2px 20px;
+  margin-bottom: 15px;
 }
 
 .form-list {
@@ -468,7 +468,7 @@ li a:hover {
   flex-direction: column;
 }
 
-#fname {
+.fname {
   background: #ffffff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
@@ -480,4 +480,43 @@ li a:hover {
   display: flex;
   align-items: center;
   color: #172b4d;
+  margin-bottom: 13px;
+  width: 300px;
+}
+
+textarea {
+  background: #ffffff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+  width: 305px;
+  height: 150px;
+  padding: 12px;
+}
+
+.contact-me-button {
+  border-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  background: #ffffff;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.contact-me-button:hover {
+  opacity: 0.7;
 }

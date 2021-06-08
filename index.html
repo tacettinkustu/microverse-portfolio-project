@@ -357,19 +357,19 @@
         </p>
       </div>
       <div class="form-container">
-        <form>
+        <form action="https://formspree.io/f/{form_id}" method="post">
           <ul class="form-list">
             <li>
-              <input type="text" id="fname" name="fname" value="Yeremias"/>
+              <input type="text" class="fname" name="fname" placeholder="Yeremias" maxlength="30" required/>
             </li>
             <li>
-              <input type="email" id="email" name="email" value="natajayanj14>gmail.com"/>
+              <input type="email" class="fname" name="email" placeholder="natajayanj14>gmail.com" required/>
             </li>
             <li>
-              <textarea name="message" rows="10" cols="30">Write your message here</textarea>
+              <textarea name="message" maxlength="500" required>Write your message here</textarea>
             </li>
             <li>
-              <input type="button" value="Get It Touch" />
+              <button type="submit" class="contact-me-button">Get It Touch</button>
             </li>
           </ul>
         </form>
