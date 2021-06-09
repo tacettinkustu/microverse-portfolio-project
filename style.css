@@ -138,7 +138,7 @@ li {
   align-content: center;
 }
 
-li a {
+.social-media li a {
   display: block;
   color: white;
   text-align: center;
@@ -375,10 +375,6 @@ li a:hover {
   border-bottom: 1px solid #dfe1e6;
 }
 
-#get-resume {
-  margin: 0px;
-}
-
 #dropdown-menu {
   padding-top: 5px;
   background-color: #fff;
@@ -416,13 +412,6 @@ li a:hover {
 
 .language-item-text {
   margin-left: 8px;
-}
-
-.footer-container {
-  margin: 0px;
-  padding: 0px;
-  border-color: #000;
-  border-width: 5px;
 }
 
 .footer {
@@ -542,8 +531,7 @@ textarea {
 @media only screen and (min-width: 768px) {
   body {
     width: 1440px;
-    margin: 0px;
-    padding: 0px;
+    margin: 0.0001px;
   }
 
   header {
@@ -595,4 +583,3 @@ textarea {
     margin-bottom: 390px;
   }
 }
-
