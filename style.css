@@ -416,12 +416,11 @@ li a:hover {
 
 .footer {
   background-image: url("./utils/Contact-me.png");
-  background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 60px;
+  margin-top: 80px;
 }
 
 .layer {
@@ -460,6 +459,8 @@ li a:hover {
 .form-list {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .fname {
@@ -723,5 +724,93 @@ textarea {
     border-radius: 8px;
     background-size: cover;
     margin: 8px 8px;
+  }
+
+  #about-me {
+    background-image: url("./utils/about-myself-background-shape-desktop.svg");
+    margin-top: 60px;
+  }
+
+  .footer-first-two {
+    display: flex;
+    align-items: center;
+  }
+
+  .intro-about {
+    width: 447px;
+    margin-left: 135px;
+  }
+
+  #dropdown-menu {
+    width: 684px;
+  }
+
+  .social-media {
+    margin: 2px;
+    margin-top: 10px;
+  }
+
+  .language-lists {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  .language-list-container {
+    left: 12px;
+    top: 12px;
+    background: #f7f7f9;
+    border-radius: 8px;
+    margin: 6px 12px;
+    width: 122px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .language-item-logo {
+    width: 48px;
+    height: 48px;
+    left: calc(50% - 48px / 2 - 25px);
+    top: 12px;
+  }
+
+  .language-item-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .footer-container {
+    background-image: url("./utils/contact-form-background-shape-desktop.svg");
+    background-repeat: no-repeat;
+    position: static;
+    float: right;
+    width: 100%;
+    background-color: #fff;
+  }
+
+  .footer {
+    background-image: url("./utils/22.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    height: auto;
+  }
+
+  .contact-me-first {
+    margin-top: 30px;
+  }
+
+  .contact-me-text {
+    width: 546px;
+  }
+
+  .layer {
+    background-image: none;
   }
 }
