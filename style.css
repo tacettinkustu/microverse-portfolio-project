@@ -13,13 +13,18 @@ body {
   background-color: #f7f7f9;
 }
 
-a, a:link, a:visited, a:focus, a:hover, a:active{
-  text-decoration:none; 
+a,
+a:link,
+a:visited,
+a:focus,
+a:hover,
+a:active {
+  text-decoration: none;
   cursor: pointer;
 }
 
 header {
-  background: url("./utils/header-background-mobile-page.svg");
+  background-image: url("./utils/header-background-mobile-page.svg");
   display: flex;
   flex-direction: column;
 }
@@ -536,27 +541,58 @@ textarea {
 
 @media only screen and (min-width: 768px) {
   body {
-    width: 100%;
+    width: 1440px;
     margin: 0px;
     padding: 0px;
   }
 
   header {
-    background: url("./utils/header-background-shape-desktop.svg");
-    background-color: #000;
+    background-image: url("./utils/header-background-shape-desktop.svg");
+    background-size: cover;
   }
 
   .hamburger-menu {
     display: none;
   }
 
-  nav { 
+  nav {
     margin: 5px 100px;
   }
 
   .nav-menu {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     width: 300px;
   }
+
+  .front-section {
+    background-image: url("./utils/Header-bg.svg");
+  }
+
+  .first-subsection {
+    margin-top: 250px;
+    margin-left: 200px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+  }
+
+  .second-subsection {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: 200px;
+    width: 920px;
+  }
+
+  .link {
+    margin-left: 180px;
+  }
+
+  .social-media {
+    margin-left: 185px;
+    margin-bottom: 390px;
+  }
 }
+
