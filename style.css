@@ -2,11 +2,15 @@
   font-family: "Poppins", sans-serif;
 }
 
+html {
+  display: flex;
+  justify-content: center;
+  background: #E5E5E5;
+}
+
 body {
-  position: absolute;
   width: 375px;
-  height: 718px;
-  background: #fff;
+  background-color: #F7F7F9;
 }
 
 a {
@@ -14,6 +18,12 @@ a {
 }
 
 header {
+  background: url("./utils/header-background-mobile-page.svg");
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-heading {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -25,12 +35,6 @@ header {
 }
 
 #my-logo {
-  position: static;
-  width: 76px;
-  height: 20px;
-  left: 12px;
-  top: 10px;
-  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -39,9 +43,6 @@ header {
   align-items: center;
   text-align: center;
   color: #6070ff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 #my-logo:hover {
@@ -64,55 +65,34 @@ header {
 
 #front-section {
   background-image: url("./utils/header-shapesmobile@2x.svg");
-  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
 }
 
 #first-subsection {
-  position: relative;
-  width: 327px;
-  height: 100px;
-  top: 144px;
-  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
-  display: flex;
-  align-items: center;
   color: #172b4d;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  padding-right: 20px;
   margin: 12px 20px;
+  margin-top: 100px;
 }
 
 #second-subsection {
-  position: relative;
-  width: 327px;
-  height: 146px;
-  top: 176px;
-  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 12px 20px;
-}
-
-.link {
-  position: relative;
-  top: 176px;
+  margin: 2px 20px;
 }
 
 .connect {
-  position: static;
   width: 130px;
   height: 24px;
-  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -127,8 +107,6 @@ header {
 }
 
 .social-media {
-  position: relative;
-  top: 176px;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -159,7 +137,6 @@ li a:hover {
 
 #works {
   display: grid;
-  margin-top: 110px;
 }
 
 .cards {
@@ -176,7 +153,7 @@ li a:hover {
 }
 
 #first-card-item {
-  margin-top: 150px;
+  margin-top: 50px;
 }
 
 #snapshot1 {
@@ -268,7 +245,7 @@ li a:hover {
 
 .card-footer {
   margin-top: 25px;
-  margin-bottom: 25px;
+  padding-bottom: 25px;
 }
 
 .card-button {
@@ -338,7 +315,8 @@ li a:hover {
   line-height: 52px;
   align-items: center;
   color: #172b4d;
-  margin: 24px 12px;
+  margin: 12px 12px;
+  padding-top: 80px;
 }
 
 .about-text {
@@ -352,7 +330,7 @@ li a:hover {
 }
 
 #second-link {
-  top: 20px;
+  margin-left: 12px;
 }
 
 #second-social-media {
@@ -382,8 +360,13 @@ li a:hover {
   border-bottom: 1px solid #dfe1e6;
 }
 
+#get-resume {
+  margin: 0px;
+}
+
 #dropdown-menu {
-  margin-top: 60px;
+  padding-top: 5px;
+  background-color: #fff;
 }
 
 .list-item-inserted {
@@ -420,13 +403,21 @@ li a:hover {
   margin-left: 8px;
 }
 
+.footer-container {
+  margin: 0px;
+  padding: 0px;
+  border-color: #000;
+  border-width: 5px;
+}
+
 .footer {
   background-image: url("./utils/Contact-me.png");
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .layer {
@@ -434,8 +425,8 @@ li a:hover {
   position: absolute;
   width: 222px;
   height: 709.17px;
-  left: 153px;
-  top: 4452px;
+  left: 808px;
+  top: 4410px;
 }
 
 .contact-me-header {
@@ -518,7 +509,7 @@ textarea {
   letter-spacing: 0.03em;
   color: #6070ff;
   margin-top: 15px;
-  margin-bottom: 5px;
+  margin-bottom: 30px;
 }
 
 .contact-me-button:hover {
@@ -527,4 +518,8 @@ textarea {
 
 .form-container {
   margin-top: 35px;
+}
+
+.add-padding-left {
+  padding-left: 5px;
 }
