@@ -26,17 +26,25 @@
   </head>
   <body>
     <header>
-      <div class="logo-heading">
-        <a href="#" id="my-logo">My Logo</a>
-        <nav>
-          <a title="menu" href="#" id="hamburger-menu">
-            <i class="fa fa-bars"></i>
-          </a>
-        </nav>
-      </div>
-      <div id="front-section">
-        <h1 id="first-subsection">I’m Tacettin Glad to see you!</h1>
-        <p id="second-subsection">
+      <nav>
+        <div class="logo-heading">
+          <a href="#" class="my-logo">My Logo</a>
+        </div>
+        <a title="menu" href="#" class="hamburger-menu">
+          <i class="fa fa-bars"></i>
+        </a>
+        <div class="nav-menu">
+          <a title="portfolio" href="#" class="nav-menu-link">Portfolio</a>
+          <a title="about" href="#" class="nav-menu-link">About</a>
+          <a title="contact" href="#" class="nav-menu-link">Contact</a>
+        </div>
+      </nav>
+      <div class="front-section">
+        <h1 class="first-subsection">
+          I’m Tacettin<br />
+          Glad to see you!
+        </h1>
+        <p class="second-subsection">
           I’m a software developer! I can help you build a product , feature or
           website Look through some of my work and experience! If you like what
           you see and have a project you need coded, don’t hesitate to contact
@@ -80,322 +88,334 @@
         <ul>
           <li id="first-card-item" class="cards">
             <div id="snapshot1"></div>
-            <div class="card-header">
-              <h2 class="card-heading">Tonic</h2>
-              <ul class="card-list">
-                <li class="item client">CANOPY</li>
-                <li class="circle">
-                  <img src="./utils/Counter.svg" alt="circle" />
-                </li>
-                <li class="item role">Back End Dev</li>
-                <li class="circle">
-                  <img src="./utils/Counter.svg" alt="circle" />
-                </li>
-                <li class="item year">2015</li>
-              </ul>
-            </div>
-            <div class="card-body">
-              <p class="card-main">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-              <ul class="language-list">
-                <li class="language-item">
-                  <div class="language-container">
-                    <p class="language-text">html</p>
-                  </div>
-                </li>
-                <li class="language-item">
-                  <div class="language-container">
-                    <p class="language-text">css</p>
-                  </div>
-                </li>
-                <li class="language-item">
-                  <div class="language-container">
-                    <p class="language-text">javaScript</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="card-footer">
-              <button type="button" class="card-button">See Project</button>
+            <div class="card-body-container">
+              <div class="card-header">
+                <h2 class="card-heading">Tonic</h2>
+                <ul class="card-list">
+                  <li class="item client">CANOPY</li>
+                  <li class="circle">
+                    <img src="./utils/Counter.svg" alt="circle" />
+                  </li>
+                  <li class="item role">Back End Dev</li>
+                  <li class="circle">
+                    <img src="./utils/Counter.svg" alt="circle" />
+                  </li>
+                  <li class="item year">2015</li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <p class="card-main">
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required.
+                </p>
+                <ul class="language-list">
+                  <li class="language-item">
+                    <div class="language-container">
+                      <p class="language-text">html</p>
+                    </div>
+                  </li>
+                  <li class="language-item">
+                    <div class="language-container">
+                      <p class="language-text">css</p>
+                    </div>
+                  </li>
+                  <li class="language-item">
+                    <div class="language-container">
+                      <p class="language-text">javaScript</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <button type="button" class="card-button">See Project</button>
+              </div>
             </div>
           </li>
-          <li class="cards">
+          <li class="cards reverse-row">
             <div id="snapshot2"></div>
-            <div class="card-header">
-              <h2 class="card-heading">Multi-Post Stories</h2>
-              <ul class="card-list">
-                <li class="item client">CANOPY</li>
-                <li class="circle">
-                  <img src="./utils/Counter.svg" alt="circle" />
-                </li>
-                <li class="item role">Back End Dev</li>
-                <li class="circle">
-                  <img src="./utils/Counter.svg" alt="circle" />
-                </li>
-                <li class="item year">2015</li>
-              </ul>
-            </div>
-            <div class="card-body">
-              <p class="card-main">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-              <ul class="language-list">
-                <li class="language-item">
-                  <div class="language-container">
-                    <p class="language-text">html</p>
-                  </div>
-                </li>
-                <li class="language-item">
-                  <div class="language-container">
-                    <p class="language-text">css</p>
-                  </div>
-                </li>
-                <li class="language-item">
-                  <div class="language-container">
-                    <p class="language-text">javaScript</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="card-footer">
-              <button type="button" class="card-button">See Project</button>
+            <div class="card-body-container">
+              <div class="card-header">
+                <h2 class="card-heading">Multi-Post Stories</h2>
+                <ul class="card-list">
+                  <li class="item client">CANOPY</li>
+                  <li class="circle">
+                    <img src="./utils/Counter.svg" alt="circle" />
+                  </li>
+                  <li class="item role">Back End Dev</li>
+                  <li class="circle">
+                    <img src="./utils/Counter.svg" alt="circle" />
+                  </li>
+                  <li class="item year">2015</li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <p class="card-main">
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required.
+                </p>
+                <ul class="language-list">
+                  <li class="language-item">
+                    <div class="language-container">
+                      <p class="language-text">html</p>
+                    </div>
+                  </li>
+                  <li class="language-item">
+                    <div class="language-container">
+                      <p class="language-text">css</p>
+                    </div>
+                  </li>
+                  <li class="language-item">
+                    <div class="language-container">
+                      <p class="language-text">javaScript</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <button type="button" class="card-button">See Project</button>
+              </div>
             </div>
           </li>
           <li class="cards">
             <div id="snapshot3"></div>
-            <div class="card-header">
-              <h2 class="card-heading">Tonic</h2>
-              <ul class="card-list">
-                <li class="item client">CANOPY</li>
-                <li class="circle">
-                  <img src="./utils/Counter.svg" alt="circle" />
-                </li>
-                <li class="item role">Back End Dev</li>
-                <li class="circle">
-                  <img src="./utils/Counter.svg" alt="circle" />
-                </li>
-                <li class="item year">2015</li>
-              </ul>
-            </div>
-            <div class="card-body">
-              <p class="card-main">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-              <ul class="language-list">
-                <li class="language-item">
-                  <div class="language-container">
-                    <p class="language-text">html</p>
-                  </div>
-                </li>
-                <li class="language-item">
-                  <div class="language-container">
-                    <p class="language-text">css</p>
-                  </div>
-                </li>
-                <li class="language-item">
-                  <div class="language-container">
-                    <p class="language-text">javaScript</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="card-footer">
-              <button type="button" class="card-button">See Project</button>
+            <div class="card-body-container">
+              <div class="card-header">
+                <h2 class="card-heading">Tonic</h2>
+                <ul class="card-list">
+                  <li class="item client">CANOPY</li>
+                  <li class="circle">
+                    <img src="./utils/Counter.svg" alt="circle" />
+                  </li>
+                  <li class="item role">Back End Dev</li>
+                  <li class="circle">
+                    <img src="./utils/Counter.svg" alt="circle" />
+                  </li>
+                  <li class="item year">2015</li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <p class="card-main">
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required.
+                </p>
+                <ul class="language-list">
+                  <li class="language-item">
+                    <div class="language-container">
+                      <p class="language-text">html</p>
+                    </div>
+                  </li>
+                  <li class="language-item">
+                    <div class="language-container">
+                      <p class="language-text">css</p>
+                    </div>
+                  </li>
+                  <li class="language-item">
+                    <div class="language-container">
+                      <p class="language-text">javaScript</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <button type="button" class="card-button">See Project</button>
+              </div>
             </div>
           </li>
-          <li class="cards">
+          <li class="cards reverse-row">
             <div id="snapshot4"></div>
-            <div class="card-header">
-              <h2 class="card-heading">Multi-Post Stories</h2>
-              <ul class="card-list">
-                <li class="item client">CANOPY</li>
-                <li class="circle">
-                  <img src="./utils/Counter.svg" alt="circle" />
-                </li>
-                <li class="item role">Back End Dev</li>
-                <li class="circle">
-                  <img src="./utils/Counter.svg" alt="circle" />
-                </li>
-                <li class="item year">2015</li>
-              </ul>
-            </div>
-            <div class="card-body">
-              <p class="card-main">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-              <ul class="language-list">
-                <li class="language-item">
-                  <div class="language-container">
-                    <p class="language-text">html</p>
-                  </div>
-                </li>
-                <li class="language-item">
-                  <div class="language-container">
-                    <p class="language-text">css</p>
-                  </div>
-                </li>
-                <li class="language-item">
-                  <div class="language-container">
-                    <p class="language-text">javaScript</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="card-footer">
-              <button type="button" class="card-button">See Project</button>
+            <div class="card-body-container">
+              <div class="card-header">
+                <h2 class="card-heading">Multi-Post Stories</h2>
+                <ul class="card-list">
+                  <li class="item client">CANOPY</li>
+                  <li class="circle">
+                    <img src="./utils/Counter.svg" alt="circle" />
+                  </li>
+                  <li class="item role">Back End Dev</li>
+                  <li class="circle">
+                    <img src="./utils/Counter.svg" alt="circle" />
+                  </li>
+                  <li class="item year">2015</li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <p class="card-main">
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required.
+                </p>
+                <ul class="language-list">
+                  <li class="language-item">
+                    <div class="language-container">
+                      <p class="language-text">html</p>
+                    </div>
+                  </li>
+                  <li class="language-item">
+                    <div class="language-container">
+                      <p class="language-text">css</p>
+                    </div>
+                  </li>
+                  <li class="language-item">
+                    <div class="language-container">
+                      <p class="language-text">javaScript</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <button type="button" class="card-button">See Project</button>
+              </div>
             </div>
           </li>
         </ul>
       </div>
     </section>
-    <section id="about-me" class="add-padding-left">
-      <div class="intro-about">
-        <h2 class="about-header">About<br />Myself</h2>
-        <p class="about-text">
-          Hello I’m a software developer! I can help you build a product ,
-          feature or website Look through some of my work and experience! If you
-          like what you see and have a project you need coded, don’t hesitate to
-          contact me.
-        </p>
-        <a href="#" class="link"
-          ><p class="connect" id="second-link">LET’S CONNECT</p></a
-        >
-        <ul class="social-media" id="second-social-media">
-          <li>
-            <a href="#"
-              ><img src="./utils/Vector.svg" alt="twitter" class="twitter"
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img
-                src="./utils/Linkedin-icon.svg"
-                alt="linkedin"
-                class="linkedin"
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="./utils/Vector1.svg" alt="elipse" class="medium"
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="./utils/Vector2.svg" alt="elipse" class="github"
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="./utils/Vector3.svg" alt="elipse" class="angel"
-            /></a>
-          </li>
-        </ul>
-        <div class="card-footer" id="get-resume">
-          <button type="button" class="card-button" id="about-button">
-            Get my resume
-          </button>
+    <footer id="about-me">
+      <div class="footer-first-two">
+        <div class="intro-about add-padding-left">
+          <h2 class="about-header">About<br />Myself</h2>
+          <p class="about-text">
+            Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hesitate to contact me.
+          </p>
+          <a href="#" class="link"
+            ><p class="connect" id="second-link">LET’S CONNECT</p></a
+          >
+          <ul class="social-media" id="second-social-media">
+            <li>
+              <a href="#"
+                ><img src="./utils/Vector.svg" alt="twitter" class="twitter"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./utils/Linkedin-icon.svg"
+                  alt="linkedin"
+                  class="linkedin"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./utils/Vector1.svg" alt="elipse" class="medium"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./utils/Vector2.svg" alt="elipse" class="github"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./utils/Vector3.svg" alt="elipse" class="angel"
+              /></a>
+            </li>
+          </ul>
+          <div class="card-footer" id="get-resume">
+            <button type="button" class="card-button" id="about-button">
+              Get my resume
+            </button>
+          </div>
+        </div>
+        <div id="dropdown-menu">
+          <div class="add-padding-left">
+            <ul class="base-list">
+              <li class="list-item" id="languages">
+                <div class="list-item-inserted">
+                  Languages <i class="fas fa-chevron-right fa-rotate-90"></i>
+                </div>
+                <div>
+                  <ul class="language-lists">
+                    <li class="language-item-in language-list-container">
+                      <img
+                        src="./utils/js.svg"
+                        alt="javascript"
+                        class="language-item-logo"
+                      />
+                      <p class="language-item-text">JavaScript</p>
+                    </li>
+                    <li class="language-item-in language-list-container">
+                      <img
+                        src="./utils/html.svg"
+                        alt="javascript"
+                        class="language-item-logo"
+                      />
+                      <p class="language-item-text">HTML</p>
+                    </li>
+                    <li class="language-item-in language-list-container">
+                      <img
+                        src="./utils/css.svg"
+                        alt="javascript"
+                        class="language-item-logo"
+                      />
+                      <p class="language-item-text">CSS</p>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="list-item" id="frameworks">
+                <div class="list-item-inserted">
+                  Frameworks <i class="fas fa-chevron-right"></i>
+                </div>
+              </li>
+              <li class="list-item" id="skills">
+                <div class="list-item-inserted">
+                  Skills <i class="fas fa-chevron-right"></i>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </section>
-    <footer id="dropdown-menu">
-      <div class="add-padding-left">
-        <ul class="base-list">
-          <li class="list-item" id="languages">
-            <div class="list-item-inserted">
-              Languages <i class="fas fa-chevron-right fa-rotate-90"></i>
+      <div>
+        <div class="footer-container">
+          <div class="footer">
+            <div class="layer"></div>
+            <div class="contact-me-first">
+              <h2 class="contact-me-header">Contact me</h2>
+              <p class="contact-me-text">
+                If you have an application you are interested in developing, a
+                feature that you need built or a project that needs coding. I’d
+                love to help with it
+              </p>
             </div>
-            <div>
-              <ul class="language-lists">
-                <li class="language-item-in language-list-container">
-                  <img
-                    src="./utils/js.svg"
-                    alt="javascript"
-                    class="language-item-logo"
-                  />
-                  <p class="language-item-text">JavaScript</p>
-                </li>
-                <li class="language-item-in language-list-container">
-                  <img
-                    src="./utils/html.svg"
-                    alt="javascript"
-                    class="language-item-logo"
-                  />
-                  <p class="language-item-text">HTML</p>
-                </li>
-                <li class="language-item-in language-list-container">
-                  <img
-                    src="./utils/css.svg"
-                    alt="javascript"
-                    class="language-item-logo"
-                  />
-                  <p class="language-item-text">CSS</p>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="list-item" id="frameworks">
-            <div class="list-item-inserted">
-              Frameworks <i class="fas fa-chevron-right"></i>
-            </div>
-          </li>
-          <li class="list-item" id="skills">
-            <div class="list-item-inserted">
-              Skills <i class="fas fa-chevron-right"></i>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div class="footer-container">
-        <div class="footer">
-          <div class="layer"></div>
-          <div class="contact-me-first">
-            <h2 class="contact-me-header">Contact me</h2>
-            <p class="contact-me-text">
-              If you have an application you are interested in developing, a
-              feature that you need built or a project that needs coding. I’d
-              love to help with it
-            </p>
-          </div>
-          <div class="form-container">
-            <form
-              action="https://formspree.io/f/mdoyznbe"
-              method="post"
-              class="form-list"
-            >
-              <input
-                type="text"
-                class="fname"
-                name="fname"
-                placeholder="Name-Surname"
-                maxlength="30"
-                required
-              />
+            <div class="form-container">
+              <form
+                action="https://formspree.io/f/mdoyznbe"
+                method="post"
+                class="form-list"
+              >
+                <input
+                  type="text"
+                  class="fname"
+                  name="fname"
+                  placeholder="Name-Surname"
+                  maxlength="30"
+                  required
+                />
 
-              <input
-                type="email"
-                class="fname"
-                name="email"
-                placeholder="E-mail"
-                id="email-input"
-                required
-              />
+                <input
+                  type="email"
+                  class="fname"
+                  name="email"
+                  placeholder="E-mail"
+                  id="email-input"
+                  required
+                />
 
-              <textarea
-                name="message"
-                maxlength="500"
-                placeholder="Write your message here"
-                required
-              ></textarea>
+                <textarea
+                  name="message"
+                  maxlength="500"
+                  placeholder="Write your message here"
+                  required
+                ></textarea>
 
-              <button type="submit" class="contact-me-button">
-                Get It Touch
-              </button>
-            </form>
+                <button type="submit" class="contact-me-button">
+                  Get It Touch
+                </button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
