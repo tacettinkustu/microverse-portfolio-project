@@ -11,6 +11,7 @@ html {
 body {
   width: 375px;
   background-color: #f7f7f9;
+  overflow-x: hidden;
 }
 
 a,
@@ -278,10 +279,13 @@ li a:hover {
   border-radius: 8px;
   height: 48px;
   background-color: #fff;
+  transition: color 4s, border 8s;
 }
 
 .card-button:hover {
   background-color: whitesmoke;
+  color: #000;
+  border: 2px solid #000;
 }
 
 #snapshot2 {
