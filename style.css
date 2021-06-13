@@ -151,8 +151,10 @@ li a:hover {
   opacity: 0.7;
 }
 
-#works {
-  display: grid;
+#works div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .cards {
@@ -166,6 +168,7 @@ li a:hover {
   box-sizing: border-box;
   border-radius: 16px;
   margin: 40px 12px;
+  margin-left: 22px;
 }
 
 #first-card-item {
@@ -427,11 +430,8 @@ li a:hover {
 
 .layer {
   background-image: url("./utils/contact-form-shapes-mobile.svg");
-  position: absolute;
-  width: 222px;
-  height: 709.17px;
-  left: 808px;
-  top: 4410px;
+  background-repeat: no-repeat;
+  background-position: 155px 10px;
 }
 
 .contact-me-header {
@@ -574,7 +574,7 @@ textarea {
     font-size: 20px;
     line-height: 28px;
     margin-left: 200px;
-    width: 920px;
+    width: 60%;
   }
 
   .link {
@@ -596,7 +596,7 @@ textarea {
     display: flex;
     flex-direction: row;
     padding: 16px;
-    width: 1156px;
+    width: 80%;
     height: auto;
     background: #fff;
     border: 1px solid #dfe1e6;
@@ -793,26 +793,22 @@ textarea {
     background-color: #fff;
   }
 
-  .footer {
+  .layer {
     background-image: url("./utils/22.png");
     background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 80px;
-    height: auto;
+    background-position: 0px 0px;
+    width: 100%;
   }
 
   .contact-me-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 30px;
   }
 
   .contact-me-text {
     width: 546px;
-  }
-
-  .layer {
-    display: none;
   }
 }
