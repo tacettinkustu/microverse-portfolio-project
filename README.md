@@ -13,6 +13,11 @@ CSS
 Javascript
 
 
+## Live Demo
+
+[Live Demo Link](https://tacettinkustu.github.io/My-Portfolio-Website/)
+
+
 ## Getting Started
 
 To get a local copy up and running usual steps.
