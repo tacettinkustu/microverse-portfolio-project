@@ -798,7 +798,7 @@ textarea {
   .layer {
     background-image: url("./utils/22.png");
     background-repeat: no-repeat;
-    background-position: 0px 0px;
+    background-position: 0.0001px 0.00001px;
     width: 100%;
   }
 
