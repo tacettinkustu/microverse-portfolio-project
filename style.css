@@ -554,24 +554,21 @@ textarea {
   header {
     background-image: url("./utils/header-background-shape-desktop.svg");
     background-size: cover;
+    width: 1440px;
+    justify-content: center;
+    align-items: center;
   }
 
   .hamburger-menu {
     display: none;
   }
 
-  header div .fixed {
-    position: fixed;
-    width: 100%;
-    display: flex;
-  }
-
   nav {
     top: 0.0001px;
-    float: left;
-    width: 1320px;
+    width: 63%;
     justify-content: space-between;
     padding: 20px 60px;
+    padding-right: 100px;;
     border-radius: 10px;
   }
 
