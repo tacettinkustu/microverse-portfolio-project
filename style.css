@@ -35,6 +35,7 @@ header {
   position: fixed;
   top: 4px;
   width: 375px; 
+  border-radius: 50px;
 }
 
 nav {
