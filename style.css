@@ -33,7 +33,7 @@ header {
 
 nav {
   position: fixed;
-  top: 4px;
+  top: 5px;
   width: 355px;
   display: flex;
   justify-content: space-around;
@@ -800,6 +800,10 @@ textarea {
     height: 48px;
     left: calc(50% - 48px / 2 - 25px);
     top: 12px;
+  }
+
+  #contact-padding {
+    padding-right: 10px;
   }
 
   .language-item-text {
