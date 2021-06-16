@@ -34,7 +34,7 @@ header {
 .fixed {
   position: fixed;
   top: 4px;
-  width: 375px; 
+  width: 375px;
   border-radius: 50px;
 }
 
@@ -42,9 +42,9 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #fff;opacity:0.9;
+  background-color: #fff;
+  opacity: 0.9;
   padding: 20px 2px;
-  
 }
 
 .my-logo {
