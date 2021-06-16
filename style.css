@@ -31,20 +31,17 @@ header {
   padding-top: 50px;
 }
 
-.fixed {
+nav {
   position: fixed;
   top: 4px;
-  width: 375px;
-  border-radius: 50px;
-}
-
-nav {
+  width: 355px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #fff;
-  opacity: 0.9;
+  opacity: 1;
   padding: 20px 2px;
+  border-radius: 5px;
 }
 
 .my-logo {
@@ -563,16 +560,19 @@ textarea {
     display: none;
   }
 
-  .fixed {
+  header div .fixed {
     position: fixed;
-    width: 80%;
-    left: 10%;
+    width: 100%;
+    display: flex;
   }
 
   nav {
-    margin: 5px 100px;
+    top: 0.0001px;
+    float: left;
+    width: 1320px;
     justify-content: space-between;
     padding: 20px 60px;
+    border-radius: 10px;
   }
 
   .nav-menu {
