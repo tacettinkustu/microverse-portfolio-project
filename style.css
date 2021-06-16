@@ -42,7 +42,7 @@ nav {
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
-  color: #6070ff;
+  color: #5666f5;
 }
 
 .my-logo:hover {
@@ -113,7 +113,7 @@ nav {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
+  color: #5262ee;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -212,21 +212,21 @@ li a:hover {
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
-  color: #344563;
+  color: #374763;
 }
 
 .role {
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
-  color: #7a869a;
+  color: #545e6e;
 }
 
 .year {
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
-  color: #7a869a;
+  color: #545e6e;
 }
 
 .card-main {
@@ -455,7 +455,7 @@ li a:hover {
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #ebebff;
+  color: #fff;
   margin: 2px 20px;
   margin-bottom: 15px;
 }
@@ -473,36 +473,39 @@ li a:hover {
   border-radius: 8px;
   padding: 15px 16px;
   font-style: normal;
-  font-weight: normal;
-  font-size: 17px;
+  font-weight: bold;
+  font-size: 20px;
   line-height: 20px;
   display: flex;
   align-items: center;
-  color: #172b4d;
+  color: black;
   margin-bottom: 13px;
   width: 300px;
 }
 
 #email-input {
   width: 300px;
+  font-weight: bold;
+  color: #000;
+  font-size: 20px;
 }
 
 textarea {
   background: #fff;
+  color:black;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
+  font-weight: bold;
+  font-size: 20px;
   line-height: 24px;
-  color: #b3bac5;
   width: 305px;
   height: 130px;
   padding: 12px;
 }
 
 .contact-me-button {
-  width: 150px;
+  width: 170px;
   border-style: none;
   display: flex;
   flex-direction: row;
@@ -511,12 +514,12 @@ textarea {
   background: #fff;
   border-radius: 8px;
   font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
+  font-weight: 600;
+  font-size: 20px;
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #3f4fe6;
   margin-top: 15px;
   margin-bottom: 30px;
 }
