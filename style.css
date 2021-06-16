@@ -565,10 +565,10 @@ textarea {
 
   nav {
     top: 0.0001px;
-    width: 63%;
+    width: 90%;
     justify-content: space-between;
     padding: 20px 60px;
-    padding-right: 100px;;
+    padding-right: 100px;
     border-radius: 10px;
   }
 
