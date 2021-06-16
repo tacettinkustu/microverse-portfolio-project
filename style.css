@@ -28,13 +28,22 @@ header {
   background-image: url("./utils/header-background-mobile-page.svg");
   display: flex;
   flex-direction: column;
+  padding-top: 50px;
+}
+
+.fixed {
+  position: fixed;
+  top: 4px;
+  width: 375px; 
 }
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 40px 20px;
+  background-color: #fff;opacity:0.9;
+  padding: 20px 2px;
+  
 }
 
 .my-logo {
@@ -43,6 +52,7 @@ nav {
   font-size: 18px;
   line-height: 20px;
   color: #5666f5;
+  padding-right: 10px;
 }
 
 .my-logo:hover {
@@ -53,6 +63,7 @@ nav {
   width: 20px;
   height: 20px;
   color: #acb7c3;
+  padding-left: 100px;
 }
 
 .hamburger-menu:hover {
@@ -551,8 +562,16 @@ textarea {
     display: none;
   }
 
+  .fixed {
+    position: fixed;
+    width: 75%;
+    left: 12.5%;
+  }
+
   nav {
     margin: 5px 100px;
+    justify-content: space-between;
+    padding: 20px 60px;
   }
 
   .nav-menu {
