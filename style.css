@@ -80,14 +80,14 @@ nav {
   display: none;
 }
 
-.nav-menu{
+.nav-menu {
   background: #6070ff;
   position: fixed;
   width: 100%;
   height: 100%;
-  top: 0px;
-  left: 0px;
-  right: 0px;
+  top: 0.000000001px;
+  left: 0.000000001px;
+  right: 0.000000001px;
   opacity: 0.98;
   filter: blur(8px);
 }
