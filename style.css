@@ -83,25 +83,32 @@ nav {
 .nav-menu {
   background: #6070ff;
   position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 0.0000001px;
+  left: 0.0000001px;
   width: 100%;
   height: 100%;
-  top: 0.000000001px;
-  left: 0.000000001px;
-  right: 0.000000001px;
   opacity: 0.98;
-  filter: blur(8px);
 }
 
 .nav-menu-link {
+  width: 80%;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #344563;
+  font-size: 32px;
+  line-height: 44px;
+  color: #ffffff;
+  margin: 10px 20px;
+  display: flex;
 }
 
 .nav-menu-link:hover {
   opacity: 0.7;
+}
+
+.close-menu {
+  justify-content: flex-end;
 }
 
 .front-section {
