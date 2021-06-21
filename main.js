@@ -1,7 +1,5 @@
 const hamburgerMenu = document.querySelector(".hamburger-menu");
-const navMenu = document.querySelector(".is-open")
-
-hamburgerMenu.addEventListener("click", toggleMenu);
+const navMenu = document.querySelector(".is-open");
 
 function toggleMenu(e) {
   if (navMenu.style.display === "block") {
@@ -11,3 +9,5 @@ function toggleMenu(e) {
   }
   e.preventDefault();
 }
+
+hamburgerMenu.addEventListener("click", toggleMenu);
