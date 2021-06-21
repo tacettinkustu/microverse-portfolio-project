@@ -1,5 +1,6 @@
 * {
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 
 html {
@@ -9,9 +10,8 @@ html {
 }
 
 body {
-  width: 375px;
+  width: 100%;
   background-color: #f7f7f9;
-  overflow-x: hidden;
 }
 
 a,
@@ -26,20 +26,24 @@ a:active {
 
 header {
   background-image: url("./utils/header-background-mobile-page.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 nav {
   position: fixed;
   top: 5px;
-  width: 355px;
+  width: 96.5%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: #fff;
-  opacity: 1;
   padding: 20px 2px;
   border-radius: 5px;
 }
@@ -50,7 +54,7 @@ nav {
   font-size: 18px;
   line-height: 20px;
   color: #5666f5;
-  padding-right: 10px;
+  margin-left: 40px;
 }
 
 .my-logo:hover {
@@ -61,7 +65,7 @@ nav {
   width: 20px;
   height: 20px;
   color: #acb7c3;
-  padding-left: 100px;
+  margin-right: 40px;
 }
 
 .hamburger-menu:hover {
@@ -72,8 +76,20 @@ nav {
   color: #6070ff;
 }
 
-.nav-menu {
+.is-open {
   display: none;
+}
+
+.nav-menu{
+  background: #6070ff;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  opacity: 0.98;
+  filter: blur(8px);
 }
 
 .nav-menu-link {
@@ -90,9 +106,11 @@ nav {
 
 .front-section {
   background-image: url("./utils/header-shapesmobile@2x.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
+  margin-top: 10%;
 }
 
 .first-subsection {
@@ -103,10 +121,11 @@ nav {
   color: #172b4d;
   padding-right: 20px;
   margin: 12px 20px;
-  margin-top: 100px;
+  margin-top: 15vh;
 }
 
 .second-subsection {
+  width: 80%;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -116,7 +135,6 @@ nav {
 }
 
 .connect {
-  width: 130px;
   height: 24px;
   font-style: normal;
   font-weight: 500;
@@ -136,6 +154,7 @@ nav {
   margin: 0;
   padding: 0;
   display: inline-block;
+  margin-bottom: 80px;
 }
 
 ul {
@@ -164,6 +183,7 @@ li a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-content: center;
 }
 
 .cards {
@@ -177,21 +197,13 @@ li a:hover {
   box-sizing: border-box;
   border-radius: 16px;
   margin: 40px 12px;
-  margin-left: 22px;
-}
-
-#first-card-item {
-  margin-top: 50px;
 }
 
 #snapshot1 {
   width: 295px;
   height: 230px;
-  left: 16px;
-  top: 16px;
   background: url("./utils/first-card.png");
   border-radius: 8px;
-  margin: auto;
   background-size: cover;
 }
 
@@ -302,19 +314,14 @@ li a:hover {
 #snapshot2 {
   width: 295px;
   height: 230px;
-  left: 16px;
-  top: 16px;
   background: url("./utils//card-image.png");
   border-radius: 8px;
-  margin: auto;
   background-size: cover;
 }
 
 #snapshot3 {
   width: 295px;
-  height: 220px;
-  left: 16px;
-  top: 16px;
+  height: 230px;
   background: url("./utils/card-image-2.png");
   border-radius: 8px;
   background-size: cover;
@@ -335,7 +342,8 @@ li a:hover {
 
 #about-me {
   background-image: url("./utils/about-me-background.svg");
-  margin-top: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .about-header {
@@ -417,8 +425,7 @@ li a:hover {
   top: 12px;
   background: #f7f7f9;
   border-radius: 8px;
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin: 12px 6px;
 }
 
 .language-item-logo {
@@ -432,6 +439,8 @@ li a:hover {
 
 .footer {
   background-image: url("./utils/Contact-me.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -442,6 +451,7 @@ li a:hover {
 .layer {
   background-image: url("./utils/contact-form-shapes-mobile.svg");
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: 155px 10px;
 }
 
@@ -482,7 +492,7 @@ li a:hover {
   border-radius: 8px;
   padding: 15px 16px;
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 20px;
   line-height: 20px;
   display: flex;
@@ -494,7 +504,7 @@ li a:hover {
 
 #email-input {
   width: 300px;
-  font-weight: bold;
+  font-weight: normal;
   color: #000;
   font-size: 20px;
 }
@@ -505,7 +515,7 @@ textarea {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 20px;
   line-height: 24px;
   width: 305px;
@@ -523,7 +533,7 @@ textarea {
   background: #fff;
   border-radius: 8px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   text-align: center;
@@ -546,30 +556,19 @@ textarea {
 }
 
 @media only screen and (min-width: 992px) {
-  body {
-    width: 1440px;
-    margin: 0.0001px;
-  }
-
   header {
     background-image: url("./utils/header-background-shape-desktop.svg");
     background-size: cover;
-    width: 1440px;
     justify-content: center;
     align-items: center;
   }
 
-  .hamburger-menu {
-    display: none;
+  nav {
+    width: 99%;
   }
 
-  nav {
-    top: 0.0001px;
-    width: 90%;
-    justify-content: space-between;
-    padding: 20px 60px;
-    padding-right: 100px;
-    border-radius: 10px;
+  .hamburger-menu {
+    display: none;
   }
 
   .nav-menu {
@@ -580,6 +579,7 @@ textarea {
 
   .front-section {
     background-image: url("./utils/Header-bg.svg");
+    margin-top: 1%;
   }
 
   .first-subsection {
@@ -605,7 +605,7 @@ textarea {
 
   .social-media {
     margin-left: 185px;
-    margin-bottom: 390px;
+    margin-bottom: 230px;
   }
 
   #works {
@@ -813,8 +813,8 @@ textarea {
   .footer-container {
     background-image: url("./utils/contact-form-background-shape-desktop.svg");
     background-repeat: no-repeat;
-    position: static;
-    float: right;
+    background-size: cover;
+    padding-top: 50px;
     width: 100%;
     background-color: #fff;
   }

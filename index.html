@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=UA-199476248-1"
@@ -53,12 +52,20 @@
         <a title="menu" href="#" class="hamburger-menu">
           <i class="fa fa-bars"></i>
         </a>
-        <div class="nav-menu">
-          <a title="portfolio" href="#works" class="nav-menu-link">Portfolio</a>
-          <a title="about" href="#about-me" class="nav-menu-link">About</a>
-          <a title="contact" href="#contact-with-me" class="nav-menu-link" id="contact-padding"
-            >Contact</a
-          >
+        <div class="is-open">
+          <div class="nav-menu">
+            <a title="portfolio" href="#works" class="nav-menu-link"
+              >Portfolio</a
+            >
+            <a title="about" href="#about-me" class="nav-menu-link">About</a>
+            <a
+              title="contact"
+              href="#contact-with-me"
+              class="nav-menu-link"
+              id="contact-padding"
+              >Contact</a
+            >
+          </div>
         </div>
       </nav>
       <div class="front-section">
@@ -412,7 +419,7 @@
                     type="text"
                     class="fname"
                     name="fname"
-                    placeholder="Name-Surname**"
+                    placeholder="Name-Surname"
                     maxlength="30"
                     required
                   />
@@ -421,7 +428,7 @@
                     type="email"
                     class="fname"
                     name="email"
-                    placeholder="E-mail**"
+                    placeholder="E-mail"
                     id="email-input"
                     required
                   />
@@ -429,7 +436,7 @@
                   <textarea
                     name="message"
                     maxlength="500"
-                    placeholder="Write your message here**"
+                    placeholder="Write your message here"
                     required
                   ></textarea>
 
@@ -443,5 +450,6 @@
         </div>
       </div>
     </footer>
+    <script src="main.js"></script>
   </body>
 </html>
