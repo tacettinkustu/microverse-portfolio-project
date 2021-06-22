@@ -80,8 +80,18 @@ nav {
   display: none;
 }
 
-.nav-menu {
+.blurred-bg {
   background: #6070ff;
+  position: fixed;
+  top: 0.0000001px;
+  left: 0.0000001px;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  filter: blur(5px);
+}
+
+.nav-menu {
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -89,7 +99,6 @@ nav {
   left: 0.0000001px;
   width: 100%;
   height: 100%;
-  opacity: 0.98;
 }
 
 .nav-menu-link {
