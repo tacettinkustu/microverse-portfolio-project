@@ -1,8 +1,7 @@
 const hamburgerMenu = document.querySelector('.hamburger-menu');
 const navMenu = document.querySelector('.is-open');
-const closeMenu = document.querySelector('.close-menu')
-const listMenu = document.querySelectorAll('.nav-menu-link')
-const contact = document.querySelector('#contact-padding')
+const closeMenu = document.querySelector('.close-menu');
+const listMenu = document.querySelectorAll('.nav-menu-link');
 
 function toggleMenu() {
   if (navMenu.style.display === 'block') {
@@ -13,4 +12,7 @@ function toggleMenu() {
 }
 
 hamburgerMenu.addEventListener('click', toggleMenu);
-closeMenu.addEventListener('click',toggleMenu);
+closeMenu.addEventListener('click', toggleMenu);
+listMenu.forEach((item) => {
+  item.addEventListener('click', toggleMenu);
+});
