@@ -620,6 +620,10 @@ textarea {
     display: none;
   }
 
+  .blurred-bg {
+    display: none;
+  }
+
   .front-section {
     background-image: url("./utils/Header-bg.svg");
     margin-top: 1%;
