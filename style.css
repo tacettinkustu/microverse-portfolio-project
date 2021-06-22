@@ -578,10 +578,26 @@ textarea {
     display: none;
   }
 
+  .is-open {
+    display: block;
+  }
+
   .nav-menu {
+    background: none;
+    position: static;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    width: 300px;
+    top: 0.0000001px;
+    left: 0.0000001px;
+    width: 20%;
+    height: auto;
+    opacity: 0.98;
+    padding: 1px 40px;
+  }
+
+  .close-menu {
+    display: none;
   }
 
   .front-section {
