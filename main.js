@@ -14,3 +14,6 @@ function toggleMenu() {
 
 hamburgerMenu.addEventListener('click', toggleMenu);
 closeMenu.addEventListener('click',toggleMenu);
+listMenu.forEach(item => {
+  item.addEventListener('click', toggleMenu)
+});
