@@ -8,6 +8,33 @@ let cards = [
     technologies: ['HTML', 'CSS', 'JavaScript'],
     live : 'www.google.com',
     source: 'www.google.com',
+  },
+  {
+    name: 'Multi-Post Stories',
+    title: ['Canopy', 'Back-end Developer','2015'],
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    image: './utils/Snapshoot-Portfolio.svg',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    live : 'www.google.com',
+    source: 'www.google.com',
+  },
+  {
+    name: 'Tonic',
+    title: ['Canopy', 'Back-end Developer','2015'],
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    image: './utils/Snapshoot-Portfolio3.svg',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    live : 'www.google.com',
+    source: 'www.google.com',
+  },
+  {
+    name: 'Multi-Post Stories',
+    title: ['Canopy', 'Back-end Developer','2015'],
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    image: './utils/Snapshoot-Portfolio4.svg',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    live : 'www.google.com',
+    source: 'www.google.com',
   }
 ]
 
