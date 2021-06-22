@@ -96,7 +96,7 @@ function populateWorks() {
 
   const titleElement2 = document.createElement('li');
   titleElement2.className = 'item role';
-  titleElement2.textContent = cards[0].title[1];
+  [titleElement2.textContent] = [cards[0].title[1]];
   titleContainer.appendChild(titleElement2);
 
   const titleElementCircle2 = document.createElement('li');
@@ -110,7 +110,7 @@ function populateWorks() {
 
   const titleElement3 = document.createElement('li');
   titleElement3.className = 'item year';
-  titleElement3.textContent = cards[0].title[2];
+  [titleElement3.textContent] = [cards[0].title[2]];
   titleContainer.appendChild(titleElement3);
 
   const snapshot = document.createElement('div');
@@ -127,7 +127,7 @@ function populateWorks() {
   langList.className = 'card-language-list';
   cardPopup.appendChild(langList);
 
-  cards[0].technologies.map((item, index) => {
+  cards[0].technologies.forEach((item, index) => {
     const langListItem = document.createElement('div');
     langListItem.className = 'card-language-list-item';
     langList.appendChild(langListItem);
