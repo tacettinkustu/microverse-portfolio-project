@@ -1,4 +1,4 @@
-let cards = [
+const cards = [
   {
     name: 'Tonic',
     title: ['Canopy', 'Back-end Developer', '2015'],
@@ -65,7 +65,7 @@ function populateWorks() {
 
   const cardHeading = document.createElement('h2');
   cardHeading.className = 'popupHeading';
-  cardHeading.textContent = cards[0]['name'];
+  cardHeading.textContent = cards[0].name;
   headerCover.appendChild(cardHeading);
 
   const cardClosing = document.createElement('a');
@@ -82,7 +82,7 @@ function populateWorks() {
 
   const titleElement = document.createElement('li');
   titleElement.className = 'item client';
-  titleElement.textContent = cards[0]['title'][0];
+  titleElement.textContent = cards[0].title[0];
   titleContainer.appendChild(titleElement);
 
   const titleElementCircle = document.createElement('li');
@@ -96,7 +96,7 @@ function populateWorks() {
 
   const titleElement2 = document.createElement('li');
   titleElement2.className = 'item role';
-  titleElement2.textContent = cards[0]['title'][1];
+  titleElement2.textContent = cards[0].title[1];
   titleContainer.appendChild(titleElement2);
 
   const titleElementCircle2 = document.createElement('li');
@@ -110,31 +110,31 @@ function populateWorks() {
 
   const titleElement3 = document.createElement('li');
   titleElement3.className = 'item year';
-  titleElement3.textContent = cards[0]['title'][2];
+  titleElement3.textContent = cards[0].title[2];
   titleContainer.appendChild(titleElement3);
 
   const snapshot = document.createElement('div');
   snapshot.className = 'snapshot';
-  snapshot.style.background = `url(${cards[0]['image']})`;
+  snapshot.style.background = `url(${cards[0].image})`;
   cardPopup.appendChild(snapshot);
 
   const cardDescription = document.createElement('p');
   cardDescription.className = 'card-description';
-  cardDescription.textContent = cards[0]['description'];
+  cardDescription.textContent = cards[0].description;
   cardPopup.appendChild(cardDescription);
 
   const langList = document.createElement('div');
   langList.className = 'card-language-list';
   cardPopup.appendChild(langList);
 
-  cards[0]['technologies'].map((item, index) => {
+  cards[0].technologies.map((item, index) => {
     const langListItem = document.createElement('div');
     langListItem.className = 'card-language-list-item';
     langList.appendChild(langListItem);
 
     const langListItemText = document.createElement('p');
     langListItemText.className = 'card-language-list-item-text';
-    langListItemText.textContent = cards[0]['technologies'][index];
+    langListItemText.textContent = cards[0].technologies[index];
     langListItem.appendChild(langListItemText);
   });
 
@@ -168,18 +168,6 @@ function openPopup() {
     popup.style.display = 'block';
     populateWorks();
   }
-}
-
-// createElement helper function
-function createElement(type, parent, classList) {
-  const element = document.createElement(type);
-  if (classList !== undefined) {
-    typeof classList === 'Array' && classList.length > 0
-      ? element.classList.add(...classList)
-      : (element.className = classList);
-  }
-  parent.append(element);
-  return element;
 }
 
 hamburgerMenu.addEventListener('click', toggleMenu);
