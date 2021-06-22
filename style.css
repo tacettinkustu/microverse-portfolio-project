@@ -596,6 +596,18 @@ textarea {
     padding: 1px 40px;
   }
 
+  .nav-menu-link {
+    width: auto;
+    font-style: normal;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    margin: 10px 20px;
+    display: flex;
+  }
+
   .close-menu {
     display: none;
   }
