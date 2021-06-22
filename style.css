@@ -620,6 +620,10 @@ textarea {
     display: none;
   }
 
+  .fa-times {
+    display: none;
+  }
+
   .blurred-bg {
     display: none;
   }
