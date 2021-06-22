@@ -195,6 +195,64 @@ li a:hover {
   opacity: 0.7;
 }
 
+.popup {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #c1c7d0;
+}
+
+.cardPopup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  position: fixed;
+  width: 90%;
+  height: 90%;
+  left: 5%;
+  top: 5%;
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.header-cover {
+  width: 90%;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popupHeading {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.title-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+
+.snapshot {
+  background-repeat: no-repeat;
+  background-size: cover!important;
+  width: 90%;
+  height: 40%;
+  border-radius: 8px;
+}
+
 #works div {
   display: flex;
   flex-direction: column;
