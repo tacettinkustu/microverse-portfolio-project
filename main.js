@@ -82,7 +82,7 @@ function populateWorks() {
 
   const titleElement = document.createElement('li');
   titleElement.className = 'item client';
-  titleElement.textContent = cards[0].title[0];
+  [titleElement.textContent] = [cards[0].title[0]];
   titleContainer.appendChild(titleElement);
 
   const titleElementCircle = document.createElement('li');
