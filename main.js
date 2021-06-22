@@ -1,27 +1,7 @@
 const cards = [
   {
     name: 'Tonic',
-    title: ['Canopy', 'Back-end Developer', '2015'],
-    description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    image: './utils/Snapshoot-Portfolio.svg',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    live: 'www.google.com',
-    source: 'www.google.com',
-  },
-  {
-    name: 'Multi-Post Stories',
-    title: ['Canopy', 'Back-end Developer', '2015'],
-    description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    image: './utils/Snapshoot-Portfolio.svg',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    live: 'www.google.com',
-    source: 'www.google.com',
-  },
-  {
-    name: 'Tonic',
-    title: ['Canopy', 'Back-end Developer', '2015'],
+    title: ['Canopy', 'Back-End Developer', '2015'],
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     image: './utils/Snapshoot-Portfolio3.svg',
@@ -30,11 +10,31 @@ const cards = [
     source: 'www.google.com',
   },
   {
-    name: 'Multi-Post Stories',
-    title: ['Canopy', 'Back-end Developer', '2015'],
+    name: 'Multi-Posts',
+    title: ['Canopy', 'Back-End Developer', '2015'],
+    description:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    image: './utils/Snapshoot-Portfolio4.svg',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    live: 'www.google.com',
+    source: 'www.google.com',
+  },
+  {
+    name: 'Tonic',
+    title: ['Canopy', 'Back-End Developer', '2015'],
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    image: './utils/Snapshoot-Portfolio4.svg',
+    image: './utils/Snapshoot-Portfolio.svg',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    live: 'www.google.com',
+    source: 'www.google.com',
+  },
+  {
+    name: 'Multi-Posts',
+    title: ['Canopy', 'Back-End Developer', '2015'],
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    image: './utils/Snapshoot-Portfolio2.svg',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     live: 'www.google.com',
     source: 'www.google.com',
@@ -48,7 +48,6 @@ const listMenu = document.querySelectorAll('.nav-menu-link');
 const cardButton = document.querySelectorAll('.card-button');
 const popup = document.querySelector('.popup');
 const cardPopup = document.querySelector('.cardPopup');
-const cardPopupClose = document.querySelector('.card-closing');
 
 function toggleMenu() {
   if (navMenu.style.display === 'block') {
@@ -58,19 +57,31 @@ function toggleMenu() {
   }
 }
 
-function populateWorks() {
+function populateWorks(nthItem) {
+  const card = cards[nthItem];
   const headerCover = document.createElement('div');
   headerCover.className = 'header-cover';
   cardPopup.appendChild(headerCover);
 
   const cardHeading = document.createElement('h2');
   cardHeading.className = 'popupHeading';
-  cardHeading.textContent = cards[0].name;
+  cardHeading.textContent = card.name;
   headerCover.appendChild(cardHeading);
 
-  const cardClosing = document.createElement('a');
+  const cardClosing = document.createElement('div');
   cardClosing.className = 'card-closing';
   headerCover.appendChild(cardClosing);
+  cardClosing.addEventListener('click', () => {
+    if (popup.style.display === 'block') {
+      popup.style.display = 'none';
+      while (cardPopup.firstChild) {
+        cardPopup.firstChild.remove();
+      }
+    } else {
+      popup.style.display = 'block';
+      populateWorks();
+    }
+  });
 
   const cardClosingIcon = document.createElement('i');
   cardClosingIcon.className = 'fas fa-times';
@@ -82,7 +93,7 @@ function populateWorks() {
 
   const titleElement = document.createElement('li');
   titleElement.className = 'item client';
-  [titleElement.textContent] = [cards[0].title[0]];
+  [titleElement.textContent] = [card.title[0]];
   titleContainer.appendChild(titleElement);
 
   const titleElementCircle = document.createElement('li');
@@ -96,7 +107,7 @@ function populateWorks() {
 
   const titleElement2 = document.createElement('li');
   titleElement2.className = 'item role';
-  [titleElement2.textContent] = [cards[0].title[1]];
+  [titleElement2.textContent] = [card.title[1]];
   titleContainer.appendChild(titleElement2);
 
   const titleElementCircle2 = document.createElement('li');
@@ -110,17 +121,17 @@ function populateWorks() {
 
   const titleElement3 = document.createElement('li');
   titleElement3.className = 'item year';
-  [titleElement3.textContent] = [cards[0].title[2]];
+  [titleElement3.textContent] = [card.title[2]];
   titleContainer.appendChild(titleElement3);
 
   const snapshot = document.createElement('div');
   snapshot.className = 'snapshot';
-  snapshot.style.background = `url(${cards[0].image})`;
+  snapshot.style.background = `url(${card.image})`;
   cardPopup.appendChild(snapshot);
 
   const cardDescription = document.createElement('p');
   cardDescription.className = 'card-description';
-  cardDescription.textContent = cards[0].description;
+  cardDescription.textContent = card.description;
   cardPopup.appendChild(cardDescription);
 
   const langList = document.createElement('div');
@@ -134,7 +145,7 @@ function populateWorks() {
 
     const langListItemText = document.createElement('p');
     langListItemText.className = 'card-language-list-item-text';
-    langListItemText.textContent = cards[0].technologies[index];
+    langListItemText.textContent = card.technologies[index];
     langListItem.appendChild(langListItemText);
   });
 
@@ -161,21 +172,19 @@ function populateWorks() {
   button2.appendChild(button2Icon);
 }
 
-function openPopup() {
-  if (popup.style.display === 'block') {
-    popup.style.display = 'none';
-  } else {
-    popup.style.display = 'block';
-    populateWorks();
-  }
-}
-
 hamburgerMenu.addEventListener('click', toggleMenu);
 closeMenu.addEventListener('click', toggleMenu);
 listMenu.forEach((item) => {
   item.addEventListener('click', toggleMenu);
 });
 cardButton.forEach((item) => {
-  item.addEventListener('click', openPopup);
+  item.addEventListener('click', () => {
+    const nthItem = item.className.split(' ')[1];
+    if (popup.style.display === 'block') {
+      popup.style.display = 'none';
+    } else {
+      popup.style.display = 'block';
+      populateWorks(nthItem);
+    }
+  });
 });
-cardPopupClose.addEventListener('click', openPopup);
