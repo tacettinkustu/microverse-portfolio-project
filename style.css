@@ -629,6 +629,7 @@ li a:hover {
   font-weight: normal;
   color: #000;
   font-size: 20px;
+  text-transform: lowercase;
 }
 
 textarea {
