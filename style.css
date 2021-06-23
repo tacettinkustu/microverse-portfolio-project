@@ -195,6 +195,13 @@ li a:hover {
   opacity: 0.7;
 }
 
+.works-ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .popup {
   display: none;
   position: fixed;
