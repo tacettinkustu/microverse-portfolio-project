@@ -2,13 +2,13 @@ const form = document.querySelector('.form-list');
 const email = form.elements[1];
 
 function error(input, message) {
-  const error = input.previousElementSibling;
+  const error = input.nextElementSibling.nextElementSibling;
   error.innerText = message;
   return false;
 }
 
 function success(input) {
-  const error = input.previousElementSibling;
+  const error = input.nextElementSibling.nextElementSibling;
   error.innerText = '';
   return true;
 }
