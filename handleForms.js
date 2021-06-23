@@ -1,5 +1,4 @@
 const form = document.querySelector(".form-list");
-const contactMe = document.querySelector(".contact-me-button");
 const email = form.elements[1];
 
 function error(input, message) {
@@ -27,13 +26,13 @@ function validateEmail(input) {
 }
 
 form.addEventListener("submit", (event) => {
-    // check required fields
-    let valid = true;
-    valid = requireValue(input = email, message = 'Email is required');
-    if (valid) {
-        valid = validateEmail(email);
-    }
-    if (!valid) {
-        event.preventDefault();
-    }
+  // check required fields
+  let valid = true;
+  valid = requireValue(email, "Email is required");
+  if (valid) {
+    valid = validateEmail(email);
+  }
+  if (!valid) {
+    event.preventDefault();
+  }
 });
