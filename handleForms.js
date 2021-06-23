@@ -1,4 +1,4 @@
-const form = document.querySelector(".form-list");
+const form = document.querySelector('.form-list');
 const email = form.elements[1];
 
 function error(input, message) {
@@ -9,12 +9,12 @@ function error(input, message) {
 
 function success(input) {
   const error = input.previousElementSibling;
-  error.innerText = "";
+  error.innerText = '';
   return true;
 }
 
 function requireValue(input, message) {
-  return input.value.trim() === "" ? error(input, message) : success(input);
+  return input.value.trim() === '' ? error(input, message) : success(input);
 }
 
 function validateEmail(input) {
@@ -22,13 +22,13 @@ function validateEmail(input) {
 
   return re.test(input.value.trim())
     ? success(input)
-    : error(input, "Invalid email format");
+    : error(input, 'Invalid email format');
 }
 
-form.addEventListener("submit", (event) => {
+form.addEventListener('submit', (event) => {
   // check required fields
   let valid = true;
-  valid = requireValue(email, "Email is required");
+  valid = requireValue(email, 'Email is required');
   if (valid) {
     valid = validateEmail(email);
   }
