@@ -13,7 +13,7 @@ const cards = [
     name: 'Multi-Posts',
     title: ['Canopy', 'Back-End Developer', '2015'],
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     image: './utils/Snapshoot-Portfolio4.svg',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     live: 'www.google.com',
@@ -92,26 +92,26 @@ function populateWorks(nthItem) {
   cardPopup.appendChild(titleContainer);
 
   const titleElement = document.createElement('li');
-  titleElement.className = 'item client';
+  titleElement.className = 'item popup-item client';
   [titleElement.textContent] = [card.title[0]];
   titleContainer.appendChild(titleElement);
 
   const titleElementCircle = document.createElement('li');
-  titleElementCircle.className = 'circle';
+  titleElementCircle.className = 'circle popup-item';
   titleContainer.appendChild(titleElementCircle);
 
   const titleElementCircleImg = document.createElement('img');
   titleElementCircleImg.src = './utils/Counter.svg';
-  titleElementCircleImg.alt = 'circle';
+  titleElementCircleImg.alt = 'circle popup-item';
   titleElementCircle.appendChild(titleElementCircleImg);
 
   const titleElement2 = document.createElement('li');
-  titleElement2.className = 'item role';
+  titleElement2.className = 'item popup-item role';
   [titleElement2.textContent] = [card.title[1]];
   titleContainer.appendChild(titleElement2);
 
   const titleElementCircle2 = document.createElement('li');
-  titleElementCircle2.className = 'circle';
+  titleElementCircle2.className = 'circle popup-item';
   titleContainer.appendChild(titleElementCircle2);
 
   const titleElementCircleImg2 = document.createElement('img');
@@ -120,7 +120,7 @@ function populateWorks(nthItem) {
   titleElementCircle2.appendChild(titleElementCircleImg2);
 
   const titleElement3 = document.createElement('li');
-  titleElement3.className = 'item year';
+  titleElement3.className = 'item popup-item year';
   [titleElement3.textContent] = [card.title[2]];
   titleContainer.appendChild(titleElement3);
 
@@ -129,16 +129,24 @@ function populateWorks(nthItem) {
   snapshot.style.background = `url(${card.image})`;
   cardPopup.appendChild(snapshot);
 
+  const footerContainer = document.createElement('div');
+  footerContainer.className = 'popup-footer-container';
+  cardPopup.appendChild(footerContainer);
+
   const cardDescription = document.createElement('p');
   cardDescription.className = 'card-description';
   cardDescription.textContent = card.description;
-  cardPopup.appendChild(cardDescription);
+  footerContainer.appendChild(cardDescription);
+
+  const footerButtonContainer = document.createElement('div');
+  footerButtonContainer.className = 'popup-footer-button-container';
+  footerContainer.appendChild(footerButtonContainer);
 
   const langList = document.createElement('div');
   langList.className = 'card-language-list';
-  cardPopup.appendChild(langList);
+  footerButtonContainer.appendChild(langList);
 
-  cards[0].technologies.forEach((item, index) => {
+  card.technologies.forEach((item, index) => {
     const langListItem = document.createElement('div');
     langListItem.className = 'card-language-list-item';
     langList.appendChild(langListItem);
@@ -151,10 +159,10 @@ function populateWorks(nthItem) {
 
   const buttonContainer = document.createElement('div');
   buttonContainer.className = 'button-container';
-  cardPopup.appendChild(buttonContainer);
+  footerButtonContainer.appendChild(buttonContainer);
 
   const button1 = document.createElement('button');
-  button1.className = 'card-button card-button-width';
+  button1.className = 'card-button card-button-size card-button-width';
   button1.textContent = 'See Live';
   buttonContainer.appendChild(button1);
 
@@ -163,7 +171,7 @@ function populateWorks(nthItem) {
   button1.appendChild(button1Icon);
 
   const button2 = document.createElement('button');
-  button2.className = 'card-button card-button-width';
+  button2.className = 'card-button card-button-size card-button-width';
   button2.textContent = 'See Source';
   buttonContainer.appendChild(button2);
 
