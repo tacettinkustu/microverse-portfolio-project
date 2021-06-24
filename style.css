@@ -624,11 +624,26 @@ li a:hover {
   width: 300px;
 }
 
+.alert-message {
+  font-size: 16px;
+  padding: 2px;
+  color: red;
+}
+
+form input.error {
+  border-color: #e74c3c;
+}
+
+form input.success {
+  border-color: #c3e6cb;
+}
+
 #email-input {
   width: 300px;
   font-weight: normal;
   color: #000;
   font-size: 20px;
+  text-transform: none;
 }
 
 textarea {
