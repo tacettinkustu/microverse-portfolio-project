@@ -15,7 +15,7 @@ Javascript
 
 ## Live Demo
 
-[Live Demo Link](https://tacettinkustu.github.io/My-Portfolio-Website/)
+[Live Demo Link](https://tacettinkustu.github.io/microverse-portfolio-project/)
 
 
 ## Getting Started
